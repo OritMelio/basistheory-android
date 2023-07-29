@@ -17,3 +17,4 @@ rootProject.name = "basistheory-android"
 include ':example'
 include ':lib'
 include ':compose-example'
+include ':basistheory-java'
