@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+    id 'melio.android.library'
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
@@ -19,12 +20,12 @@ android {
         consumerProguardFiles "consumer-rules.pro"
     }
 
-//    buildTypes {
-//        release {
-//            minifyEnabled false
-//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-//        }
-//    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
     compileOptions {
         coreLibraryDesugaringEnabled = true
 
