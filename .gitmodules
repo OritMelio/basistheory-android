@@ -1,0 +1,3 @@
+[submodule "basistheory-java"]
+	path = basistheory-java
+	url = git@github.com:OritMelio/basistheory-java.git
